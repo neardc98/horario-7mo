@@ -1,0 +1,110 @@
+body {
+    font-family: "Rock Salt", cursive;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-image: url("fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: auto;
+    height: 100vh;
+  }
+.grid{
+    display: inline-grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.3em;
+    align-items: center;
+}
+
+.nested-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column: 1/7;
+    font-size: 15px;
+}
+.grid > div {
+    backface-visibility: hidden;
+    padding: 0.2em;
+    text-align: center;
+}
+.grid > div:hover{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    border-radius: 50px 20px;
+    background: black;
+    color: white;
+    
+}
+i {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+
+  .IA{
+      grid-column: 3/3;
+      grid-row: 2/5;
+      
+      
+  }
+  
+  .Simulacion {
+    grid-column: 2/2;
+    grid-row: 2/4;
+    
+}
+
+  .sig {
+    grid-column: 4/4;
+    grid-row: 2/4;
+    
+}
+
+.sia{
+  grid-column: 5/5;
+  grid-row: 2/5;
+  
+}
+.simu{
+  grid-column: 6/6;
+  grid-row: 2/4;
+  
+}
+.sig3 {
+  grid-column: 2/2;
+  grid-row: 4/6;
+  
+}
+
+.sisop {
+  grid-column: 2/2;
+  grid-row: 6/8;
+  
+}
+.eco {
+  grid-column: 3/3;
+  grid-row: 5/7;
+  
+}
+.ia3{
+  grid-column: 4/4;
+  grid-row: 5/8;
+  
+}
+.sisop3 {
+  grid-column: 5/5;
+  grid-row: 5/7;
+  
+}
+
+.sig4 {
+  grid-column: 6/6;
+  grid-row: 4/6;
+  
+}
+
+.sia3 {
+  grid-column: 6/6;
+  grid-row: 6/9;
+  
+}
